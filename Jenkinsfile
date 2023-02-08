@@ -9,7 +9,7 @@ pipeline{
 	stages {
 
 		stage('Build') {
-
+			echo 'hello ali'
 			steps {
 				echo 'docker build -t tanayvan/nodeapp:latest .'
 			}
