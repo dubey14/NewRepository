@@ -9,9 +9,9 @@ pipeline{
 	stages {
 
 		stage('Build') {
-			echo 'hello ali'
 			steps {
-				echo 'docker build -t tanayvan/nodeapp:latest .'
+			echo 'hello ali'
+			echo 'docker build -t tanayvan/nodeapp:latest .'
 			}
 		}
 
