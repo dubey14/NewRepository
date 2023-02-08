@@ -11,7 +11,7 @@ pipeline{
 		stage('Build') {
 			steps {
 			echo 'hello ali'
-			echo 'docker build -t tanayvan/nodeapp:latest .'
+			echo 'docker build -t vidhidubey/nodeapp:latest .'
 			}
 		}
 
@@ -25,7 +25,7 @@ pipeline{
 		stage('Push') {
 
 			steps {
-				echo 'docker push tanayvan/nodeapp:latest'
+				echo 'docker push vidhidubey/nodeapp:latest'
 			}
 		}
 	}
